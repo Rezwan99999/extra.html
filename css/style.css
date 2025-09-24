@@ -2,10 +2,17 @@
 
 
 /* =============================common clsss================================= */
+section{
+    background-color: #F0F8FF;
+}
+.section-padding{
+    padding: 75px 0px;
+}
 .container{
     max-width: 1446px !important;
     margin: 0 auto !important;
     width: 100% !important;
+
 }
 a{
     text-decoration: none;
@@ -20,9 +27,44 @@ a{
     font-weight: 600;
     font-size: 18px;
 }
+.down-btn a{
+    padding: 15px 26px;
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #122732;
+    border-radius: 8px;
+}
 .active{
     color: #FFFFFF;
     text-decoration: underline #FFFFFF;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+}
+h2{
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #122732;
+}
+.head p{
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #616066;
+    /* margin-bottom: 15px; */
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* ====================================navbar==========================================*/
@@ -67,4 +109,100 @@ a{
     color: #FFFFFF;
     margin-bottom: 30px;
     width: 90%;
+}
+/* ========================================most view================================== */
+.most-view .container .row{
+    margin: 50px 0px;
+}
+.most-view .card{
+    max-width: 456px;
+    border-radius: 25px;
+    padding: 16px;
+}
+.most-view .card .con-1 p{
+    font-family: "Syne", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #616066;
+}
+.most-view .card .con-1 figure figcaption{
+    padding-left: 5px;
+}
+.most-view .card .con-1 figure:nth-child(1){
+    padding-right: 20px;
+}
+.most-view .card h3{
+    font-family: "Syne", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.most-view .card p{
+    font-family: "Syne", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.most-view .card .card-btn a{
+    padding: 14px 54px;
+    border-radius: 8px;
+    font-family: "Syne", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.most-view .card .card-btn a:nth-child(1){
+    background-color: #122732;
+}
+.most-view .card .card-btn a:nth-child(2){
+    border: 2px solid #122732;
+    color: #122732;
+}
+/* ============================method============================*/
+.method .m-content h2{
+    margin-bottom: 30px;
+    width: 90%;
+}
+.method figure{
+    margin: 0;
+}
+.method .m-content p{
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.method .m-content .m-btn a{
+    padding: 10px 30px;
+    background-color: #122732;
+    border-radius: 8px;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*===========================================our work====================================*/
+.our-work .container .row{
+    padding: 50px 0px;
+}
+.our-work .card{
+    max-width: 336px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.our-work .card p:nth-child(2){
+    font-family: "Syne", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    /* margin: 20px 0px 25px 0; */
+}
+.our-work .card p:nth-child(3){
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.our-work .card figure{
+    max-width: 50px;
+}
+.our-work .container .row .arrow{
+    max-width: 183px;
 }
